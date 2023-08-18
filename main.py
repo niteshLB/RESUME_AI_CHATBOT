@@ -122,7 +122,8 @@ Contact NUmber:+919664353500
         else:
             print("Invalid choice. Please enter a valid number.")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
+
 construct_index("resume")
 ask_ai()
 
